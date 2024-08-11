@@ -1,3 +1,3 @@
-export default function MatchTableMain() {
-  return <h1>Hello, Next.js MatchTableMain!</h1>;
+export default function MatchTableModeSelect() {
+  return <h1>Hello, Next.js MatchTableModeSelect!</h1>;
 }
