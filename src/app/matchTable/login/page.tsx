@@ -47,7 +47,7 @@ export default function MatchTableLogin() {
       if (result) {
         localStorage.setItem("matchTableData", JSON.stringify(result));
         localStorage.setItem("loginInfo", JSON.stringify(formData));
-        //toLink("/MatchTable");
+        toLink("/matchTable/main");
       }
     } catch (e: any) {
       setErrorModalText(e.response.data.message);
