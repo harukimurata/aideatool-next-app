@@ -5,9 +5,8 @@ import {
   type MatchTableData,
   type MatchTableUpdateRequest,
 } from "../types/MatchTable";
-const API_URL = "http://localhost:3000";
-
-const MATCH_TABLE_API_URL = API_URL + "/matchTable";
+const API_URL = process.env.NEXT_PUBLIC_API;
+const MATCH_TABLE_API_URL = API_URL + "matchTable";
 
 /**
  * 大会情報取得

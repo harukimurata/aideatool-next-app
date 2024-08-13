@@ -49,9 +49,6 @@ export default function MatchTableMain() {
   useEffect(() => {
     const localStorageMatchTableData = localStorage.getItem("matchTableData");
     const localStorageLoginInfo = localStorage.getItem("loginInfo");
-    console.log("useEffect");
-    console.log("localStorageMatchTableData", localStorageMatchTableData);
-    console.log("localStorageLoginInfo", localStorageLoginInfo);
 
     if (localStorageMatchTableData == null || localStorageLoginInfo == null) {
       setErrorModalText("大会情報が見つかりませんでした。");
