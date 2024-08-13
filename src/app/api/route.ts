@@ -7,7 +7,6 @@ import { NextResponse, type NextRequest } from "next/server";
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const query = searchParams.get("query");
-  console.log(query);
   let message = "Health Check";
   if (!query) {
     message = "Health Check. You can add '?query=value'.";
