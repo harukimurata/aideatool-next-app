@@ -91,7 +91,6 @@ export default function MatchTableLogin() {
 
   //エラーモーダル非表示
   const errorModalClose = () => {
-    console.log("close modal");
     setIsErrorModal(false);
   };
 
