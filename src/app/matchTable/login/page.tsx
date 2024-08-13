@@ -158,6 +158,12 @@ export default function MatchTableLogin() {
               >
                 ログイン
               </button>
+              <button
+                className="flex w-full justify-center rounded-md bg-gray-100 px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm hover:bg-gray-200 mt-2"
+                onClick={() => toLink("/matchTable")}
+              >
+                戻る
+              </button>
             </div>
           </div>
         </div>
